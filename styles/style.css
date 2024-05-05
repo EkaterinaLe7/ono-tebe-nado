@@ -196,4 +196,53 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 23.48px;
+  text-underline-position: under;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 430px 1fr;
+  grid-template-areas:
+    "logo title"
+    ". text";
+  column-gap: 25px;
+  padding: 0 24px;
+}
+
+
+.about__logo {
+  grid-area: logo;
+  justify-self: center;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: black;
+  background-image: url(../images/logo-white.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 145px auto;
+}
+
+.about__logo-image {
+  object-fit: contain;
+  object-position: center;
+}
+
+.about__title {
+  grid-area: title;
+  align-self: center;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46.96px;
+  text-transform: uppercase;
+}
+
+.about__text {
+  display: flex;
+  flex-direction: column;
+  grid-area: text;
+  gap: 25px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23.48px;
 }
