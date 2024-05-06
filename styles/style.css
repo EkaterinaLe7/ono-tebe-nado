@@ -1,3 +1,11 @@
+a {
+  transition: opacity 0.2s linear;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
 .page__container-padding {
   padding-right: 24px;
   padding-left: 24px;
@@ -16,7 +24,7 @@
   gap: 31px;
   font-weight: 400;
   font-size: 18px;
-  line-height: 21.13px;
+  line-height: 1.17;
   list-style: circle;
 }
 
@@ -47,7 +55,7 @@
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
-  line-height: 24.3px;
+  line-height: 1.35;
 }
 
 .address a {
@@ -56,7 +64,7 @@
 
 .cover {
   position: relative;
-  z-index: -1;
+  z-index: 0;
   padding: 165px 24px 50px;
   color: #fff;
   background-image: url(../images/cover.jpg);
@@ -76,7 +84,7 @@
   margin-bottom: 125px;
   font-weight: 700;
   font-size: 100px;
-  line-height: 122px;
+  line-height: 1.22;
   letter-spacing: 0.3em;
   text-transform: uppercase;
 }
@@ -111,21 +119,23 @@
 .cover__description-text {
   font-weight: 400;
   font-size: 22px;
-  line-height: 28px;
+  line-height: 1.27;
   text-transform: uppercase;
   word-spacing: 15px;
 }
 
 .bet-button {
+  position: relative;
   border: 1px solid #fff;
   padding: 12px 32px;
   color: #fff;
   font-weight: 400;
   font-size: 22px;
-  line-height: 25.83px;
+  line-height: 1.17;
   text-align: center;
   text-transform: uppercase;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .lots {
@@ -137,7 +147,7 @@
   margin: 0 0 27px 26px;
   font-weight: 700;
   font-size: 40px;
-  line-height: 46.96px;
+  line-height: 1.18;
   text-transform: uppercase;
 }
 
@@ -163,7 +173,7 @@
 
 .card {
   position: relative;
-  z-index: -1;
+  z-index: 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -189,7 +199,7 @@
 .card__title {
   font-weight: 700;
   font-size: 22px;
-  line-height: 26.4px;
+  line-height: 1.2;
   text-decoration: underline;
   text-transform: uppercase;
 }
@@ -197,14 +207,14 @@
 .card__text {
   font-weight: 400;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 1.2;
 }
 
 .lots__look-more-link {
   margin-left: 26px;
   font-weight: 400;
   font-size: 20px;
-  line-height: 23.48px;
+  line-height: 1.17;
   text-underline-position: under;
 }
 
@@ -241,7 +251,7 @@
   align-self: center;
   font-weight: 700;
   font-size: 40px;
-  line-height: 46.96px;
+  line-height: 1.18;
   text-transform: uppercase;
 }
 
@@ -252,7 +262,7 @@
   gap: 25px;
   font-weight: 400;
   font-size: 20px;
-  line-height: 23.48px;
+  line-height: 1.17;
 }
 
 .footer {
@@ -264,7 +274,7 @@
 .footer__menu-list {
   font-weight: 400;
   font-size: 18px;
-  line-height: 21.13px;
+  line-height: 1.17;
   text-align: center;
   list-style: none;
 }
