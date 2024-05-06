@@ -1,6 +1,6 @@
 .page__container-padding {
-  padding-left: 24px;
   padding-right: 24px;
+  padding-left: 24px;
 }
 
 .header {
@@ -9,7 +9,6 @@
   align-items: center;
   box-sizing: border-box;
   min-height: 293px;
-  /* padding: 0 24px; */
 }
 
 .header__links-list {
@@ -130,7 +129,6 @@
 }
 
 .lots {
-  /* padding: 180px 24px 179px; */
   padding-top: 180px;
   padding-bottom: 179px;
 }
@@ -217,10 +215,8 @@
     "logo title"
     ". text";
   column-gap: 25px;
-  /* padding: 0 24px 181px 24px; */
   padding-bottom: 181px;
 }
-
 
 .about__logo {
   grid-area: logo;
@@ -262,17 +258,15 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  /* padding: 0 24px 90px; */
   padding-bottom: 90px;
 }
 
 .footer__menu-list {
-  list-style: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.13px;
   text-align: center;
-font-size: 18px;
-font-weight: 400;
-line-height: 21.13px;
-
+  list-style: none;
 }
 
 .footer__menu-link {
@@ -285,8 +279,8 @@ line-height: 21.13px;
 
 .footer__social-list {
   display: flex;
-  list-style: none;
   gap: 48px;
+  list-style: none;
 }
 
 .footer__social-list-item {
