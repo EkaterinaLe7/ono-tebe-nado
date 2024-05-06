@@ -10,3 +10,6 @@
   
 * HTML5
 * CSS3
+  
+Ознакомиться с сайтом вы можете на GitHub Pages по ссылке:  
+https://ekaterinale7.github.io/ono-tebe-nado/index.html  
